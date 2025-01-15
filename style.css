@@ -1,0 +1,142 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #ff4757;
+    width: 1380px;
+    height: 50px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+    display: flex;
+    position: relative;
+    right: 500px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    left: 500px;
+    bottom: 50px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    color: black;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+}
+
+#hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff4757;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 3s ease linear;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #e03e4e;
+}
+
+#menu {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#menu h2 {
+    margin-bottom: 20px;
+}
+
+.food-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    background-color: #fff;
+    box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
+.food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.food-item h3 {
+    margin: 10px 0;
+}
+
+.food-item p {
+    margin: 10px 0;
+}
+
+.food-item .price {
+    font-weight: bold;
+    color: #ff4757;
+    margin: 10px 0;
+}
+
+#about, #contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
